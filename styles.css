@@ -142,3 +142,49 @@ img {
   width: 50rem;
   margin-top: 0;
 }
+
+#p1 {
+  text-decoration: none;
+  color: var(--dark);
+  background-color: var(--light);
+  padding: 0.6rem;
+  font-weight: 600;
+}
+
+.socials ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.socials li {
+  margin-left: 1rem;
+}
+
+footer {
+  background-color: #ddd;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+
+.footer-heading h2 {
+  margin: 3rem 0 0;
+  font-size: 1rem;
+}
+
+.footer-heading p {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
