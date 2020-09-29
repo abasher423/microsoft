@@ -1,121 +1,144 @@
 :root {
-    --primary: #cccccc;
-    --light: white;
-    --dark: black;
+  --primary: #cccccc;
+  --light: white;
+  --dark: black;
 }
 
 html {
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    margin: 30px 50px;
-    line-height: 1.4;
+  margin: 30px 50px;
+  line-height: 1.4;
 }
 
 .container {
-    display: grid;
-    grid-gap: 20px;
-    position: relative;
+  display: grid;
+  grid-gap: 20px;
+  position: relative;
 }
 
 .cart {
-    position: absolute;
-    top: 1.4375rem;
-    right: 0;
+  position: absolute;
+  top: 1.4375rem;
+  right: 0;
 }
 
-.nav-bar ul{
-   display: flex;
-   align-items: center;
-   justify-content: flex-start;
-   list-style: none;
-   margin: 0;
-   padding: 0;
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-bar a {
-    color: grey;
-    font-weight: 450;
+  color: grey;
+  font-weight: 450;
 }
 
-.nav-bar li{
-    margin-left: 2rem;
+.nav-bar li {
+  margin-left: 2rem;
 }
 .nav-bar img {
-    height: 4rem;
+  height: 4rem;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .top-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
 }
 
 .showcase {
-    background-image: url(https://1427c1f7.cc.cnetcontent.com/dccn/EN_US/Reseller/Microsoft_Surface_2020_EN-US/_images/header.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20rem;
+  background-image: url(https://1427c1f7.cc.cnetcontent.com/dccn/EN_US/Reseller/Microsoft_Surface_2020_EN-US/_images/header.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20rem;
 }
 
 .showcase h1 {
-    margin: 1.5rem 0 0;
+  margin: 1.5rem 0 0;
 }
 
 .showcase p {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .btn {
-    text-decoration: none;
-    color: var(--light);
-    background-color: var(--dark);
-    padding: 0.6rem;
+  text-decoration: none;
+  color: var(--light);
+  background-color: var(--dark);
+  padding: 0.6rem;
 }
 
 .btn-b {
-    text-decoration: none;
-    color: blue;
-    font-weight: 600;
-    text-transform: uppercase;
+  text-decoration: none;
+  color: blue;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .boxes {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
 }
 
 .boxes img {
-    max-width: 100%;
-    height: 15rem;
+  max-width: 100%;
+  height: 15rem;
 }
 
 .xbox {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
 }
 
 .xbox div {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 .deals {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
 }
 
 .deals img {
-    height: 191.14px;
+  height: 191.14px;
+}
+
+.carbon {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+}
+
+.carbon div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  color: whitesmoke;
+  padding: 1.5rem;
+}
+
+.carbon p {
+  width: 50rem;
+  margin-top: 0;
 }
