@@ -188,3 +188,39 @@ footer {
   margin-bottom: 0.5rem;
   font-size: 1rem;
 }
+
+@media screen and (max-width: 800px) {
+  /* .top-container {
+        grid-template-columns: auto;
+    } */
+
+  .boxes {
+    grid-template-columns: 1fr;
+  }
+
+  .boxes img {
+    min-width: 100%;
+    height: auto;
+  }
+
+  .xbox {
+    grid-template-columns: 1fr;
+  }
+
+  .deals {
+    grid-template-columns: 1fr;
+  }
+
+  .deals img {
+    min-width: 100%;
+    height: auto;
+  }
+
+  #p1 {
+    display: block;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
+  }
+}
